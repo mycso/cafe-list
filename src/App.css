@@ -1,0 +1,33 @@
+
+html {
+    background-image: url("./Media/coffeebeans.png");
+}
+
+.root {
+  flex-grow: 1;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.content {
+  flex-grow: 1;
+  margin-bottom: 50px;
+  min-height: 500px;
+}
+
+.grid {
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 1em 1em;
+  grid-auto-flow: row dense;
+  grid-template-rows: auto auto;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.img-grid {
+  display: block;
+  width: 100%;
+  height: 100%;
+}

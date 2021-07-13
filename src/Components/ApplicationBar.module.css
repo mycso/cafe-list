@@ -1,0 +1,37 @@
+.toolBar {
+    padding-left: 30px;
+    height: 150px;
+}
+.menuButton {
+    margin-right: 8px;
+}
+.title {
+    flex-grow: 1;
+}
+.tab span {
+    max-width: 140px;
+    min-width: 0px;
+    width: 160px;
+    font-size: 24px;
+}
+@media (max-width: 1150px) {
+    .tab span {
+        font-size: 18px;
+        max-width: 140px;
+        min-width: 0px;
+    }
+    :global(.MuiTab-root) {
+        min-width: unset;
+    }
+}
+@media (max-width: 600px) {
+    .tab span {
+        font-size: 16px;
+        max-width: 100px;
+        min-width: 0px;
+    }
+    :global(.MuiTab-root) {
+        min-width: unset;
+    }
+}
+
